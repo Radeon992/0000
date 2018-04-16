@@ -1,0 +1,50 @@
+/* google font for all page */
+*{
+  font-family: 'Slabo 27px', serif;
+}
+body{
+  background-color: #ffffff;
+}
+.navbar{
+  /* removing thin white line beeteen body and navbar */
+  border: 0 !important;
+  background-color: #dee5ef;
+}
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+#main_logo{
+  /* rounded logo */
+  width: 70px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+img{
+  /* resizing imges with css */
+  display: block;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+}
+.thumbnail{
+  border: 0 none;
+  box-shadow: none;
+}
+footer{
+  /* always sticks to the bottom of browser window */
+  background-color: #dee5ef;
+  bottom:0;
+  position:fixed;
+  z-index:150;
+  _position:absolute;
+  _top:expression(eval(document.documentElement.scrollTop+
+    (document.documentElement.clientHeight-this.offsetHeight)));
+  height:100px;
+  width: 100%;
+}
